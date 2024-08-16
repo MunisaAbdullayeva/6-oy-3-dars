@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center h-screen">
+    <div class="w-1/3 flex flex-col gap-1">
+    <button class="btn btn-primary" onclick="addItem()">Qo'shish</button>
+    <button class="btn btn-primary" onclick="getItem()">Chaqirish</button>
+    <button class="btn btn-error" onclick="removeItem()">O'chirish</button>
+    <button class="btn btn-error" onclick="clearItems()">Hammasini o'chirish</button>
+    <button class="btn btn-accent" onclick="leangthItems()">Itemlar soni</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
